@@ -1,0 +1,16 @@
+{
+  "name": "jsonifyargs",
+  "version": "1.0.0",
+  "description": "A simple utility to parse command line arguments as JSON",
+  "main": "index.js",
+  "keywords": [
+    "args",
+    "arguments",
+    "command-line",
+    "cli",
+    "json"
+  ],
+  "repository":"https://github.com/PixelOrangeDev/JSONifyArgs",
+  "author": "Pixel:Orange",
+  "license": "CC BY 4.0"
+}
