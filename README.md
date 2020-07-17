@@ -21,7 +21,7 @@ let args = jsonifyArgs() // Get the arguments from process.argv
 
 let wordOne = args.wordOne || 'HELLO'
 let wordTwo = args.wordTwo || 'WORLD'
-let rickRoll = args.surprise || false
+let rickRoll = args.surprise
 
 console.log(`${wordOne} ${wordTwo}!`)
 if(rickRoll) console.log('Never gonna give you up, never gonna let you down...')
