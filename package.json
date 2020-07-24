@@ -1,6 +1,6 @@
 {
   "name": "jsonifyargs",
-  "version": "1.0.0-r3",
+  "version": "1.0.1-r1",
   "description": "A simple utility to parse command line arguments as JSON",
   "main": "index.js",
   "keywords": [
