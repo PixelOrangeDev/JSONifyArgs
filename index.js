@@ -1,3 +1,5 @@
+let argsArray = []
+
 function sortArgs(arg) {
   if(arg.startsWith('--')) {
     // Remove the preceding "--"
@@ -10,7 +12,10 @@ function sortArgs(arg) {
     // If no value is specified, assume it is boolean, and set it to true, ex: "--boolean" would be true
     if(!value) { value = true }
 
-    // Return a json object with the name and value variables...
+    // Add arguments to argsArray...
+    argsArray[argsArray.length+1] = value
+
+    // ...return a json object with the name and value variables...
     return {name: name, value: value}
   }else { return false } // ...or false if it doesn't begin with "--"
 }
@@ -31,3 +36,5 @@ module.exports = (args) => {
   })
   return jsonArgs
 }
+
+module.exports.argsArray = argsArray
