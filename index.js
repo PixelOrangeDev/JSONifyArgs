@@ -18,4 +18,5 @@ function process(args) {
   return jsonArgs
 }
 
-module.exports = process;
+module.exports = process
+module.exports.argsArray = argsArray
