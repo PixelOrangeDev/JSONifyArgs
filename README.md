@@ -1,3 +1,8 @@
+# :rotating_light: No longer under active development :rotating_light:
+> This project is no longer under active development, however, it should continue to work indefinitely, unless NodeJS changes something dramatically.
+
+---
+
 # JSONifyArgs!
 
 JSONifyArgs quite literally does what it says on the tin: it takes the command line arguments of a NodeJS script, and pops them into a handy-dandy JSON object!
